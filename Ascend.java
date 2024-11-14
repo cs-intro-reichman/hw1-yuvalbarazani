@@ -2,9 +2,10 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
-		int c = Integer.parseInt(args[2]);
+		int lim= Integer.parseInt(args[0]);
+		int a =(int)(Math.random()*100);
+		int b =(int)(Math.random()*100);
+		int c =(int)(Math.random()*100);
 
 		int max =Math.max(a, Math.max(b,c));
 		int min =Math.min(a, Math.min(b,c));
