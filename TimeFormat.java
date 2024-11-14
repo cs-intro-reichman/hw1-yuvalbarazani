@@ -34,15 +34,11 @@ public class TimeFormat {
 			}
 		}
 		else 
-		{
-			
-			if(hours<10)
-				time+="0" + hours+":";
-			else
-				time+= hours + ":";
+		
+			time+= hours + ":";
 
 
-		}
+		
 		if(minutes<10)
 			time+="0" + minutes;
 		else 
